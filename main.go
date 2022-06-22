@@ -1,6 +1,6 @@
 package main
 
-import "kernel/terminal"
+import "gokernel/terminal"
 
 func main() {
 	terminal.Init()                      // Initialize terminal
