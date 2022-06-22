@@ -1,8 +1,8 @@
-package kernel
+package main
 
-import "terminal"
+import "kernel/terminal"
 
-func Main() {
+func main() {
 	terminal.Init()                      // Initialize terminal
 	terminal.Color = terminal.MakeColor( // Set color to..
 		terminal.White, // White text...
